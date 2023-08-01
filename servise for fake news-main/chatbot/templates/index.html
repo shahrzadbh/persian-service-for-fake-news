@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FakeNewsDetection</title>
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+    <body>
+        <div class="box">
+            <h1>متن خبر</h1>
+            <form method="post">
+                {%csrf_token%}
+                <input type="text" name="newsInput" placeholder="متن خبر را وارد کنید"> 
+                <input type="submit" name="" value="جست و جو" >
+            </form>
+        </div>
+    </body>
+</html>
